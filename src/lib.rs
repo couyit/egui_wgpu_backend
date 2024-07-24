@@ -251,6 +251,7 @@ impl RenderPass {
                 compilation_options: PipelineCompilationOptions::default(),
             }),
             multiview: None,
+            cache: None,
         });
 
         Self {
